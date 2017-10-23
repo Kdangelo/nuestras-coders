@@ -1,0 +1,62 @@
+h1{
+	margin-bottom: 10px;
+}
+hr{
+	margin-top: 0;
+    margin-left: 1%;
+    padding-top: .3%;
+    background: black;
+    width: 5.5%;
+    display: inline-block;
+}
+.contenedor1{
+	width: 700px;
+	height: 220px;
+	background-color: red;
+}
+.contenedor2{
+	width: 700px;
+	height: 220px;
+	background-color: blue;
+}
+.contenedor1 .box{
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	background-color: yellow;
+	display: inline-block;
+}
+.contenedor2 .box{
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	background-color: purple;
+	display: inline-block;
+}
+.box p{
+	color: white; /* defino color del texto */
+	margin-top: 85%; /* margen superior para dejarlo al 85% del tamaño del box */
+	margin-right: 10px; /* margen ala derecha para darle 10 px de despegue del borde derecho */
+}
+.box{
+	background-size: 100% 100%; /* doy formato al background para que las fotos se ajusten al tamaño del box,
+								de forma vertical y horizontal */
+}
+.uno{
+	background-image: url(css/coders1.png); /* agrego las imagenes como fondo del box, y a los siguientes */
+}
+.dos{
+	background-image: url(css/coders2.png);
+}
+.tres{
+	background-image: url(css/coders3.jpg);
+}
+.cuatro{
+	background-image: url(css/coders4.jpg);
+}
+.cinco{
+	background-image: url(css/coders5.jpg);
+}
+.seis{
+	background-image: url(css/coders6.jpg);
+}
